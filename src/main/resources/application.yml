@@ -1,5 +1,7 @@
 # H2 DB connection
 spring:
+  application:
+    name: Rest-API
   datasource:
     url: jdbc:h2:mem:testdb
     driver-class-name: org.h2.Driver
